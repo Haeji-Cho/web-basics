@@ -1,0 +1,185 @@
+* { font-family: "amazonEmber" !important; }
+
+
+.swiper-container {
+	width:600px;
+	height:400px;
+	border:5px solid silver;
+	border-radius:7px;
+	box-shadow:0 0 20px #ccc inset;
+}
+.swiper-slide {
+	text-align:center;
+	display:flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
+	align-items:center; /* 위아래 기준 중앙정렬 */
+	justify-content:center; /* 좌우 기준 중앙정렬 */
+}
+.swiper-slide img {
+	box-shadow:0 0 5px #555;
+}
+
+#header_box .nav{
+	float:right
+}
+
+#swipeSetting{
+	position: relative;
+	margin-left: 300px;
+	width:"500px";
+	height:"500px";
+	left:"2000px";
+	top: "1000px";
+}
+
+.section2 #section2{
+	float:left;
+}
+
+
+header{
+	overflow: hidden;
+}
+
+.swiper-container1 {
+	padding: 10px;
+	margin: 0 auto;
+	align-items:center;
+    margin: 0 auto;
+	width: 1800px;
+	height: 500px;
+}
+
+#amazonsResponse{
+	margin-right: 10px;
+	float: right;
+	text-align: center;
+}
+
+#section1{
+	background-color: white;
+}
+
+.body{
+	font:black;
+}
+
+#layout01{
+	vertical-align: middle;
+	text-align:center;
+}
+
+.layoutBg{
+  display: inline-block;
+  display: flex;
+  text-align: center;
+}
+
+.layoutPhotoSetting {
+	overflow: hidden;
+	text-align: center;
+	margin:25px;
+	font: black;
+	background-color: white;
+	flex:1;
+	width: 5%;
+	box-sizing: border-box;
+  }
+
+#fourLayoutPhotoSetting {
+	background-color: white;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	margin:25px;
+	font: black;
+	flex:1;
+	width: 5%;
+	box-sizing: border-box;
+  }
+
+#section3{
+	margin: 0 auto;
+}
+
+#layoutPhotoSetting {
+	overflow: hidden;
+	text-align: center;
+	margin: 25px;
+	font: black;
+	background-color: white;
+	flex:1;
+  }
+
+  #layoutPhotoSetting2{
+	  margin-left: 0px;
+	  padding: 0px;
+  }
+
+  #lalala{
+	  background-color: white;
+  }
+
+
+ .swipeAlert{
+	  text-align: center;
+	  font-size: 20px;
+	  font: black;
+  }
+  
+  #sidebar{
+	  position: absolute;
+	  size: fixed;
+	  width: 10px;
+	  height: 10px;
+	  font: white;
+	  text-decoration-line: none;
+
+  }
+
+a{
+	text-decoration: none;
+}
+
+#notsideBar{
+	margin-left: 40px;
+}
+
+
+  a:link {
+	color : white;
+  }
+  a:visited {
+	color : white;
+  }
+  a:hover {
+	color : white;
+  }
+  a:active {
+	color : white;
+  }
+
+  select {
+	background: transparent;
+	border: none;
+	padding: 6px 12px;
+  }
+  button {
+	padding: 6px 12px;
+	background: transparent;
+	border: none;
+  }
+  .input-group-addon {
+	padding: 0!important;
+  }
+
+#searchbox{
+	position: relative;
+	margin-top: -45px;
+}
+
+
+#rightalign{
+	position:absolute;
+	right: 35px;
+	overflow: hidden;
+}
