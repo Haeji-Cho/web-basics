@@ -19,3 +19,34 @@
 
 
 </html>
+
+
+Score *biggerScore(Score* p1, Score* p2)
+{
+	Score temp;
+	temp.midterm = p1->midterm + p1->final;
+	temp.final = p2->midterm + p2->final;
+
+	scanf_s("%d%d", &temp.midterm, &temp.final);
+
+	if (temp.midterm > temp.final) {
+		printf("tem.midterm");
+	}
+	else if (temp.midterm < temp.final) {
+		printf("temp.final");
+
+	}
+	
+	return 0;
+
+}
+
+
+printf("2)-----------------------\n");
+	printf("둘 중 성적이 좋은 점수:\n");
+	printScore(biggerScore(&s1, &s2));
+
+	printf("3)-----------------------\n");
+	printf("두 성적의 총 합:\n");
+	totalScore(&s1, &s2, &temp);
+	printScore(&temp);
