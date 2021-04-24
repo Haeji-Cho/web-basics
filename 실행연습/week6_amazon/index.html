@@ -35,13 +35,13 @@
         font : white;
         }
 
-	/* 브라우저 마진과 패딩 리셋 */
+	 /* 우저 마진과 패딩 리셋 */
 	* {margin:0;padding:0;}
 
-	/* INPUT 가리기 */
+	/* input가리기 */
 	.section [id*="slide"] {display:none;}
 	
-	/* 슬라이드 영역 - max-width 크기를 조절해주면 됩니다*/
+	/* 슬라이드 영역-max-width 크기를 조절해주면 됩니다 */
 	.section .slidewrap {max-width:1200px;margin:0 auto;overflow:hidden;position:relative;}
 	.section .slidelist {white-space:nowrap;font-size:0;}
 	.section .slidelist > li {display:inline-block;vertical-align:middle;width:100%;transition:all .5s;}
@@ -134,7 +134,9 @@
             </select>
             </span>
             <input type="text" class="form-control" style="width:730px;">
-            <span class="input-group-addon" style="background-color: #F3A847;"> <button>🔍</button></span>
+            <div style=" display: inline-block" position:fixed;left:300;>
+                <span class="search.ico" style="background-color: #F3A847;"> </span>
+                </div>
         </div>
         </div>
         
@@ -172,9 +174,9 @@
                 </select>
             </form>
     </div>
-
     <!-- 배송할 지역 -->
     <div id="whereto" style="margin:5px; display: inline-block">
+        <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
         <font size = "2">&nbsp;&nbsp;&nbsp;
         <a href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&">
         Hello, Sign in<br>
@@ -341,7 +343,7 @@
 </div>
 
 <div id="section01">>
-    <!-- 섹션 1 기본 설정 -->
+    <!-- 섹션 1 기본 설정  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
     <style type="text/css">
