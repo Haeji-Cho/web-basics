@@ -1,11 +1,14 @@
+*{
+	margin:0;
 
+}
 *
 {font-family: 'Roboto', sans-serif;}
 
 
 .swiper-container {
-	width:600px;
-	height:300px;
+	width:1000px;
+	height:600px;
 	border:5px solid silver;
 	border-radius:7px;
 	box-shadow:0 0 20px #ccc inset;
@@ -31,7 +34,7 @@
 	width:"500px";
 	height:"300px";
 	left:"2000px";
-	top: "400px";
+	top: "1000px";
 }
 
 .section2 #section2{
@@ -49,7 +52,7 @@ header{
 	align-items:center;
     margin: 0 auto;
 	width: 2000px;
-	height: 500px;
+	height: 1000px;
 }
 
 #amazonsResponse{
