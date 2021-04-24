@@ -1,0 +1,186 @@
+*{
+	margin:0;
+
+}
+*
+{font-family: 'Roboto', sans-serif;}
+
+
+.swiper-container {
+	width:1000px;
+	height:600px;
+	border:5px solid silver;
+	border-radius:7px;
+	box-shadow:0 0 20px #ccc inset;
+}
+.swiper-slide {
+	text-align:center;
+	display:flex; 
+	align-items:center;
+	justify-content:center; 
+}
+.swiper-slide img {
+	box-shadow:0 0 5px #555;
+}
+
+#header_box .nav{
+	float:right
+}
+
+
+#swipe{
+	position: relative;
+	margin-left: 50px;
+	width:"500px";
+	height:"300px";
+	left:"2000px";
+	top: "1000px";
+}
+
+.section2 #section2{
+	float:left;
+}
+
+
+header{
+	overflow: hidden;
+}
+
+.swiper-container1 {
+	padding: 10px;
+	margin: 0 auto;
+	align-items:center;
+    margin: 0 auto;
+	width: 2000px;
+	height: 1000px;
+}
+
+#amazonsResponse{
+	margin-right: 10px;
+	float: right;
+	text-align: center;
+}
+
+#section1{
+	background-color: white;
+}
+
+.body{
+	font:black;
+}
+
+#layout1{
+	vertical-align: middle;
+	text-align:center;
+}
+
+.layoutBg{
+  display: inline-block;
+  display: flex;
+  text-align: center;
+}
+
+.layout1 {
+	overflow: hidden;
+	text-align: center;
+	margin:25px;
+	font: black;
+	background-color: white;
+	flex:1;
+	width: 5%;
+	box-sizing: border-box;
+  }
+
+#Layout3{
+	background-color: white;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	margin:25px;
+	font: black;
+	flex:1;
+	width: 5%;
+	box-sizing: border-box;
+  }
+
+#section3{
+	margin: 0 auto;
+}
+
+#layout1 {
+	overflow: hidden;
+	text-align: center;
+	margin: 25px;
+	font: black;
+	background-color: white;
+	flex:1;
+  }
+
+  #layout2{
+	  margin-left: 0px;
+	  padding: 0px;
+  }
+
+  #lalala{
+	  background-color: white;
+  }
+
+
+ .swipeAlert{
+	  text-align: center;
+	  font-size: 20px;
+	  font: black;
+  }
+  
+  #sidebar{
+	  position: absolute;
+	  size: fixed;
+	  width: 10px;
+	  height: 10px;
+	  font: white;
+	  text-decoration-line: none;
+
+  }
+
+a{
+	text-decoration: none;
+}
+
+#exitsideBar{
+	margin-left: 40px;
+}
+
+
+  a:link {
+	color : white;
+  }
+  a:visited {
+	color : white;
+  }
+  a:hover {
+	color : white;
+  }
+  a:active {
+	color : white;
+  }
+
+  select {
+	background: transparent;
+	border: none;
+	padding: 6px 12px;
+  }
+  
+  .input-group-addon {
+	padding: 0;
+  }
+
+#searchbox{
+	position: relative;
+	margin-top: -35px;
+}
+
+#rightalign{
+	position:absolute;
+	right: 35px;
+	overflow: hidden;
+}
